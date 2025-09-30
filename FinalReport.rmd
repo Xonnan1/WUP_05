@@ -72,3 +72,5 @@ After looking over the odds ratio it is 1.5 times more likely to get aids from t
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Based off the graphical result the medication caused more people to gain aids rather than the placebo. The numerical results corresponded with the graphical results of how 58.82% of the people who took the medication got aids in an exact amount. The inferential results then took the p-values from the 3 tests and estimated that there's no significant difference in the medication and placebo ultimately concluding that the odds of the medication giving people aids is 1.5 times more likely than the placebo effect.
