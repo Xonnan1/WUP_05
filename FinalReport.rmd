@@ -61,6 +61,13 @@ After looking over the numerical results I noticed that graphical results corres
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+After looking over the odds ratio it is 1.5 times more likely to get aids from the medication rather than the placebo itself. The p-values itself from the 3 different tests (Pearson's Chi-squared, Chi-squared test, and fishers test) gave a low p-value showing no significant difference in medication and placebo ultimately making the medication more dangerous. The p-value 7.686e-05, 1e-04, and 6.596e-05 prove the data.
 
 # Discussion and Conclusion
 
