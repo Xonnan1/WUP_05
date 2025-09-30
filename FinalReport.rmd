@@ -33,6 +33,18 @@ I noticed that the data is using the Categorical Categorical data, and in order 
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
+```{r}
+Females <- filter(triUmp, gender=="F")
+```
+
+```{r}
+barchartGC(~infected + treatment,data=Females)
+barchartGC(~infected + treatment,data=Females, type="percent")
+
+```
+
+What I observed in the bar chart, I realized the people who took the drug of the 58% got aids, and the 40% of the people who took it who got aids were less than those who took the drug. The drug did the opposite rather than prevent people from getting aids.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
